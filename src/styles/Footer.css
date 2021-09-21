@@ -1,0 +1,116 @@
+.footer {
+    background: var(--primary-color);
+    color: var(--font-color-lighter);
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: calc(var(--home-padding) - 2rem);
+}
+
+.footer-container > div {
+    margin: 2rem;
+}
+
+.footer-company-logo-name {
+    display: flex;
+    align-items: center;
+}
+
+.footer-company-logo-name > div {
+    max-width: 6rem;
+    margin: 0 2rem 0 0;
+}
+
+.footer-company-logo-name h4 {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.footer-stripe {
+    height: 2.6rem;
+    background-color: var(--secondary-color);
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.footer-last-section {
+    background-color: white;
+    color: var(--font-color-dark);
+    border-top: 10px solid var(--primary-color);
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.footer-last-section small {
+    padding-left: var(--home-padding);
+}
+
+.company-links-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+}
+
+.company-links-list li a {
+    display: inline-block;
+    position: relative;
+    padding-left: 2rem;
+    transition: 0.3s all ease;
+}
+
+
+.company-links-list li a::before {
+    content: "»";
+    pointer-events: none;
+    display: inline-block;
+    margin: 0 1rem 0;
+    position: absolute;
+    left: -1rem;
+}
+
+.company-links-list li a:hover {
+    transform: translateX(1rem);
+    color: var(--secondary-color);
+}
+
+.contact-info-list {
+    margin-top: 2rem;
+}
+
+.contact-info-list li {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    margin: 1rem 0;
+}
+
+.contact-info-list li span:nth-child(1) {
+    font-weight: 600;
+}
+
+.fc-col-2 h3,
+.fc-col-3 h3 {
+    font-size: 2.2rem;
+    position: relative;
+}
+
+.fc-col-2 h3:after,
+.fc-col-3 h3:after {
+    content: '';
+    margin: 0.7rem 0;
+    width: 6.5rem;
+    height: 0.5rem;
+    display: block;
+    background-color: var(--secondary-color);
+}
+
+.footer-last-section > div {
+    padding-left: var(--home-padding) !important;
+    padding-right: var(--home-padding);
+}
+
+.footer-last-section > div small {
+    padding: 0;
+    display: inline-block;
+}

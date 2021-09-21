@@ -1,0 +1,108 @@
+.profiles-container {
+}
+
+
+.profiles-container ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(-webkit-min-content, 200px));
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 200px));
+    grid-template-rows: repeat(auto-fit, minmax(-webkit-min-content, 250px));
+    grid-template-rows: repeat(auto-fit, minmax(min-content, 250px));
+    grid-gap: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.profiles-container ul li {
+    width: auto;
+    max-width: 20rem;
+    height: 25rem;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.profiles-container ul li > a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.profiles-container ul li:hover {
+    transform: scale(1.1);
+}
+
+.profile-photo-wrapper {
+    height: 20rem;
+    max-width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-photo-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.profiles-container ul li > a > div:nth-of-type(2) {
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    background-color: #01686710;
+}
+
+.profiles-container ul li > a > div:nth-of-type(2) span {
+    display: block;
+}
+
+.profiles-container ul li > a > div:nth-of-type(2) span:nth-child(2) {
+    opacity: 0.8;
+}
+
+/* * INDIVIDUAL MANAGEMENT PROFILE PAGE */
+.proc {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 22rem 1fr;
+    margin-top: 1.5rem;
+    gap: 2rem;
+}
+
+.proc-left ul {
+    font-size: 1.4rem;
+
+}
+
+.proc-left ul li {
+    margin: 1rem 0;
+    opacity: 0.85;
+}
+
+.proc-left ul li.active-list {
+    opacity: 1 !important;
+}
+
+.proc-left ul li a {
+    display: block;
+    padding: 0.5rem 0; 
+}
+
+.proc-right h3 {
+    margin-bottom: 1rem;
+}
+
+.proc-right > div:nth-of-type(1) {
+    max-width: 20rem;
+    max-height: 24rem;
+}
+
+.proc-right > div:nth-of-type(1) img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.proc-about {
+    margin: 1rem 0;
+    opacity: 0.85;
+}

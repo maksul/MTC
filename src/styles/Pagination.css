@@ -1,0 +1,46 @@
+.page-count {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-top: 1.5rem;
+}
+
+.pagination-wrapper {
+    margin-top: 1rem;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination > span a {
+    transition: letter-spacing 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.pagination > span a:hover {
+    letter-spacing: 0.1rem;
+    color: var(--secondary-color);
+}
+
+/* individual page pagination */
+.page-pagination {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+.page-pagination .pp-left {
+    text-align: left;
+}
+
+.page-pagination .pp-right {
+    text-align: right;
+}
+
+.page-pagination a {
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.page-pagination a:hover {
+    color: var(--secondary-color);
+}

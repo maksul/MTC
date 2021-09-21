@@ -1,0 +1,152 @@
+.login-page {
+    height: 100vh;
+    border: 1px solid blue;
+    overflow: auto;
+}
+
+.login-left {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: auto;
+    margin-right: var(--login-right-width);
+    padding: 6rem;
+
+}
+
+.ll-content {
+    margin: 0 0 8rem;
+}
+
+
+/* width */
+.login-left::-webkit-scrollbar {
+    width: 0rem;
+    height: 00rem;
+    opacity: 0;
+}
+
+/* Track */
+.login-left::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+    border-radius: 1rem;
+}
+
+/* Handle */
+.login-left::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 1rem;
+}
+
+/* Handle on hover */
+.login-left::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+}
+
+.login-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    width: var(--login-right-width);
+    right: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+
+.lr-content {
+    width: 90%;
+    height: 90%;
+    background-color: var(--primary-color-light);
+    border-radius: 2rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.login-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.login-header img {
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.login-header span {
+    font-size: 2.5rem;
+}
+
+.login-form {
+    width: 35rem;
+}
+
+.login-form-header span {
+    opacity: 0.7;
+}
+
+.login-form-header h1 {
+    opacity: 0.9;
+    margin: 0 0 0.8rem;
+}
+
+.form-group {
+    margin: 2.5rem 0;
+}
+
+.form-group .form-control,
+.form-group label {
+    display: block;
+}
+
+.form-group label {
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.4rem;
+}
+
+.submit-wrapper {
+    margin: 3rem 0;
+}
+
+.login-form-submit {
+    display: block;
+    padding: 1rem 0;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    /* background-color: black; */
+    background-color: #5E8671;
+    width: 100%;
+    border-radius: 0.4rem;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.login-form-submit:hover {
+    box-shadow: var(--shadow-lg);
+    opacity: 0.9;
+}
+
+.lr-catchword {
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    padding: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.login-form-body {
+    padding-bottom: 6rem;
+}

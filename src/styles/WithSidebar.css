@@ -1,0 +1,57 @@
+.with-sidebar {
+    display: grid;
+    grid-template-columns: 1fr 34rem;
+    padding: 2rem var(--home-padding);
+}
+
+.ws-content {
+    min-height: 40rem;
+    margin-right: var(--home-padding);
+}
+
+.sidebar {
+    min-height: 40rem;
+}
+
+.s-box {
+    border-top: 10px solid var(--primary-color);
+    box-shadow: var(--shadow-md);
+    margin: 0 0 3rem;
+}
+
+.s-box-header {
+    padding: 0.5rem 1rem 0.5rem;
+    background-color: var(--primary-color-light);  
+    color: var(--primary-color);
+}
+
+.s-box-header h2 {
+
+}
+
+.s-box-body {
+    padding: 1rem;
+}
+
+.s-box-body h5 {
+    font-size: medium;
+    margin: 0.5rem 0 0.8rem;
+}
+
+.s-facilities-list li {
+    transition: all 0.3s ease;
+    list-style-type: "➫ ";
+    list-style-position: inside;
+}
+
+.s-facilities-list li a {
+    display: inline-block;
+    height: 100%;
+    padding: 0.8rem 0;
+    transition: all 0.3s ease;
+}
+
+.s-facilities-list li a:hover {
+    text-decoration: underline;
+    color: var(--primary-color)
+}

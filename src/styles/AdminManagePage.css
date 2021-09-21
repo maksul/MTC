@@ -1,0 +1,54 @@
+.page-type-select {
+    /* border: 1px solid black; */
+    padding: 0.8rem;
+    background-color: var(--primary-color-light);
+    box-shadow: var(--shadow);
+    margin: 1rem 0;
+}
+
+.page-type-select:hover {
+    box-shadow: var(--shadow-lg);
+}
+
+.create-page-container {
+    margin: 2rem 0;
+}
+
+.edit-page-container {
+    margin: 1rem 0;
+}
+
+.page-select-wrapper {
+    margin: 1rem 0;
+}
+
+.page-btn {
+    margin-right:  1rem;
+    padding: 0.4rem 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    width: 9rem
+}
+
+.page-btn:hover {
+    opacity: 0.8;
+}
+
+.page-edit-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.page-delete-btn {
+    background-color: rgba(255, 30, 30, 0.8);
+    color: white;
+}
+
+.page-cancel-btn {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.edit-page-action-btns {
+    margin: 1.5rem 0;
+}

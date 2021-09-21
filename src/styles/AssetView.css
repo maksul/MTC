@@ -1,0 +1,54 @@
+.all-assets-selector {
+    border: 2px dashed var(--secondary-color);  
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.copy-asset-head {
+	margin: 3rem 0 0;
+}
+
+.asset-form-select-wrap {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: auto 5rem;
+	grid-template-columns: auto 5rem;
+	margin: 1rem 0 1rem;
+}
+
+.asset-copy-btn {
+	font-size: 1.8rem;
+	border: none;
+	width: 3.9rem;
+	height: 3.9rem;
+	border-radius: 0.6rem;
+	margin-left: 1.2rem;
+	opacity: 0.9;
+    color: white;
+    background-color: var(--secondary-color);
+    transition: all 0.2s ease;
+}
+
+.asset-copy-btn:hover {
+    background: var(--font-color);
+    color: var(--secondary-color);
+    opacity: 0.7;
+}
+
+.css-1pahdxg-control {
+    border-color: var(--secondary-color) !important;
+    box-shadow: 0 0 0 1px var(--secondary-color) !important;
+}
+
+.asset-type-select {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--secondary-color);
+    color: white;
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+.asset-type-select:focus {
+    outline: none !important;
+}

@@ -1,0 +1,202 @@
+.skeleton-loader:empty {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+    background: linear-gradient( to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80% ), lightgray;
+    background-repeat: repeat-y;
+    background-size: 50px 500px;
+    background-position: 0 0;
+    -webkit-animation: shine2 1s infinite;
+    animation: shine2 1s infinite;
+    position: absolute;
+}
+@-webkit-keyframes shine2 {
+    to {
+        background-position: 100% 0;
+    }
+}
+@keyframes shine2 {
+    to {
+        background-position: 100% 0;
+    }
+}
+
+.page-box-left {
+    position: relative;
+}
+
+.pb-img-wrapper {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+}
+
+.pb-img-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.page-box {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    padding: 0.5rem;
+}
+.page-box:hover {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+.page-box:hover .page-box-right a {
+    font-weight: 600 !important;
+}
+
+/* *Individual Page */
+.page-cover-wrap {
+    text-align: center;
+    margin: 1rem 0;
+}
+.page-cover-wrap img {
+    max-width: 100%;
+    max-height: 40rem;
+}
+
+.page-meta {
+    font-size: 1.4rem;
+}
+
+.exact-page-title {
+    margin: 1rem 0 0;
+}
+
+.postBody p {
+    font-size: 1.6rem;
+    margin: 0 0 1rem;
+    line-height: 2.8rem;
+    word-spacing: 0.1rem;
+    opacity: 0.9;
+    overflow-wrap: break-word;
+}
+
+.postBody pre {
+    font-family: Monaco, monospace !important;
+}
+
+.postBody h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin: 1rem 0 2rem !important;
+    overflow-wrap: break-word;
+}
+
+.postBody h2 {
+    margin: 3.2rem 0 1.6rem;
+    overflow-wrap: break-word;
+    font-size: 2.4rem;
+    opacity: 0.9 !important;
+}
+
+.postBody h3 {
+    margin: 2.8rem 0 0.8rem;
+    overflow-wrap: break-word;
+}
+
+.postBody h4 {
+    margin: 0 0 0.8rem;
+    overflow-wrap: break-word;
+}
+
+.postBody h5,
+.postBody h6 {
+    overflow-wrap: break-word;
+}
+
+.postBody ul {
+    margin: 2rem 0;
+    line-height: 2.8rem;
+    opacity: 0.9;
+}
+/* code backgroud-color: #f0efed; */
+.postBody li {
+    line-height: 2.8rem;
+    list-style-position: inside;
+    margin: 0.4rem 0;
+    overflow-wrap: break-word;
+    list-style-type: circle;
+}
+.postBody li > h1:first-child,
+.postBody li > h2:first-child,
+.postBody li > h3:first-child,
+.postBody li > h4:first-child,
+.postBody li > h5:first-child,
+.postBody li > h6:first-child {
+    display: inline-block !important;
+}
+
+.postBody li ul li {
+    padding: 0 0 0 2.2rem;
+}
+
+.postBody code {
+    line-height: 2.24rem;
+    font-size: 1.35rem;
+    font-family: Monaco, monospace !important;
+    background: var(--code-elem-bg-color);
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    font-weight: 500 !important;
+}
+
+.postBody a {
+    opacity: 1;
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.postBody blockquote {
+    border-left: 4px solid #e5e7eb;
+    padding: 0 0 0 1.6rem;
+    margin: 1.9rem 0;
+    line-height: 2.4em;
+    opacity: 0.9;
+}
+
+.postBody table {
+    font-size: 1.4rem;
+    border-collapse: collapse;
+    opacity: 0.9;
+    overflow-x: scroll;
+    margin-bottom: 1rem;
+}
+
+.postBody table thead tr {
+}
+
+.postBody table tr {
+    text-align: left;
+    overflow: scroll;
+}
+
+.postBody table th {
+    padding: 0.1rem 1.2rem 0.1rem 0.1rem;
+    text-align: left;
+
+}
+
+.postBody table td {
+    padding: 0.8rem 1.2rem 0.8rem 0;
+    text-align: left;
+    min-width: 20rem;
+    width: auto;
+    max-width: max-content;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+}
+
+.postBody img {
+    display: block;
+    max-width: 100%;
+    margin: 3.2rem auto;
+    line-height: 2.8rem;
+}
