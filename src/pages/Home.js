@@ -12,6 +12,7 @@ import asclCarousel7 from '../images/ascl-carousel-7.jpg';
 import industryTools1 from '../images/industry-tools-1.png';
 import industryTools2 from '../images/industry-tools-2.png';
 import industryTools3 from '../images/industry-tools-3.png';
+import Metgate from '../images/metgate.png';
 import { Link } from 'react-router-dom';
 import SEOHeader from '../components/SEOHeader';
 
@@ -48,6 +49,9 @@ function Home() {
             </div>
             <div>
                 <img src={asclCarousel7} alt="Ascl Carousel" />
+            </div>
+            <div>
+                <img src={Metgate} alt="Ascl Carousel" />
             </div>
             </Carousel>
 

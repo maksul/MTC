@@ -17,9 +17,9 @@ function MTC() {
                 
                 <img src={Metgate}/>
 
-                <p> The metallurgical training center MTC of Ajaokuta steel company limited (ASCL) was 
+                <p> The metallurgical training centre MTC of Ajaokuta steel company limited (ASCL) was 
                     established in November 1978 was patterned in an organizational structure after Kharkov 
-                    polytechnics of the former soviet union(USSR) and the center was moved to its 
+                    polytechnics of the former soviet union(USSR) and the centre was moved to its 
                     present permanent site in 1990.</p>
                 <p>It was established with the sole aim of providing skilled manpower for the steel and 
                     allied industries.it was also designed to be able to make some of the industrial spare parts 
@@ -27,12 +27,12 @@ function MTC() {
                 <h4>2.	TRAINING CAPABILITY</h4> 
                 <img src={Metshop}/>
                 <p> MTC is capable of designing, developing and organizing training for immediate and future needs 
-                    of Steel, Oil& Gas and other allied industries. The center is committed to producing qualified 
+                    of Steel, Oil& Gas and other allied industries. The centre is committed to producing qualified 
                     and competent operatives,supervisors,technologist and engineers who will be to face the challenges 
                     of the industries.</p>
                 <p>MTC has been carrying out series of training programmes for the entire manpower in ASCL and also the 
                     external candidates.</p> 
-                <p>The center training outfits consists of two schools namely: Craftsman Training school which was 
+                <p>The centre training outfits consists of two schools namely: Craftsman Training school which was 
                     designed capacity for 1,980 trainees on 31 courses per year and technician training school which has 
                     designed capacity for 1,560 trainees on 13 courses in two years.Thus,MTC has capacity for 3,540 
                     candidates on long term training programs simultaneously.</p>   

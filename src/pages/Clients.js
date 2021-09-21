@@ -34,6 +34,8 @@ function Clients() {
                         <li>West Afrrican Portland Cement Lagos</li>
                         <li>Nigeria Security Printing and Minting Company. Abuja.</li>
                         <li>BCC,Gboko Benue State</li>
+                        <li>National Iron Ore Mining Company(NIOMCO)</li>
+                        <li>Federal Ministry of Mines and Steel Development(FMMSD)</li>
                     </ul>
                 </div>
             </WithSidebar>
